@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class Stock_Plan {
     static void main() {
-        int[] arr = { 30, 35, 40, 38, 35 ,44 };
+        int[] arr = { 30, 35, 40, 38, 35, 44 };
         System.out.println(Arrays.toString(solution(arr)));
     }
 
