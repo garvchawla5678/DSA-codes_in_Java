@@ -1,16 +1,5 @@
 package leetcode.BST;
 
-class Node
-{
-  int data;
-  Node left, right;
-
-  public Node(int d)
-  {
-      data = d;
-      left = right = null;
-  }
-}
 // this solution is right but it might give TLE as it's T.C : O(n^2) as we are checking for each node whether it is Valid BST or not
 
 public class leetcode_333 {
