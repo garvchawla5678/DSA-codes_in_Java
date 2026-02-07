@@ -15,6 +15,7 @@ public class Topological_Sort_BFS {
 		System.out.println(topologicalsort(n, edges));
 	}
 
+	// Kahn's Algorithm
 	private static ArrayList<Integer> topologicalsort(int n, int[][] edges) {
 		HashMap<Integer, List<Integer>> map = new HashMap<>();
 		for (int i = 0; i < n; i++) {
